@@ -48,8 +48,7 @@ class UVa10000 {
 	    				longest = i;
 	    			}
 	    		}
-	
-	    		System.out.printf("Case %d: The longest path from %d has length %d, finishing at %d.\n\n", run, s, max, longest);
+	    		System.out.println("Case " + run + ": The longest path from " + s + " has length " + max + ", finishing at " + longest + ".\n");
 	    		run++;
 	    	}
 	    	System.exit(0);
